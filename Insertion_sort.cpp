@@ -16,6 +16,15 @@ void input (){  //procedure input
             cout << "nArray Tidak Boleh Lebih Dari 20\n";
         }
     }
+    cout << endl;
+    cout << "=====================================";
+    cout << "======Masukkan Element Array=========";
+    cout << "=====================================";
+
+    for (int i = 0; i < n; i++){
+        cout << "Data ke-" << (i+1) << ": ";
+        cin >> arr[i];
+    }
 
 }
 
