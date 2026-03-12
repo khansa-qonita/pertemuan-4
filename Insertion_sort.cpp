@@ -36,7 +36,3 @@ void insertionsort(){  //procedure insertion sort
         temp = arr[i];
         j = i - 1;
         
-    }
-
-}
-
